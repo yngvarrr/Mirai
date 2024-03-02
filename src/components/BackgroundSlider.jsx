@@ -2,6 +2,10 @@ import { Button } from "@mui/material";
 import LoginIcon from "@mui/icons-material/Login";
 import "./components.css";
 
+const styles = {
+
+};
+
 export const BackgroundSlider = () => {
   return (
     <div className="containerSlider">
@@ -25,7 +29,9 @@ export const BackgroundSlider = () => {
                 placeholder="Insira sua senha"
               />
             </div>
-            <Button variant="contained" endIcon={<LoginIcon />}>
+            <Button sx={{
+                bgcolor: '#074431'
+            }} variant="contained" endIcon={<LoginIcon />}>
               Entrar
             </Button>
           </div>
