@@ -1,5 +1,5 @@
 import { Button } from "@mui/material";
-import SendIcon from "@mui/icons-material/Send";
+import LoginIcon from "@mui/icons-material/Login";
 import "./components.css";
 
 export const BackgroundSlider = () => {
@@ -11,15 +11,22 @@ export const BackgroundSlider = () => {
             <h1>Bem vindo ao Mirai!</h1>
             <div>
               <h2>Login</h2>
-              <input className="loginInput" type="text" placeholder="Insira seu nick" />
+              <input
+                className="loginInput"
+                type="text"
+                placeholder="Insira seu nick"
+              />
             </div>
             <div>
               <h2>Senha</h2>
-              <input className="loginInput" type="text" placeholder="Insira sua senha" />
+              <input
+                className="loginInput"
+                type="text"
+                placeholder="Insira sua senha"
+              />
             </div>
-
-            <Button variant="contained" endIcon={<SendIcon />}>
-              Send
+            <Button variant="contained" endIcon={<LoginIcon />}>
+              Entrar
             </Button>
           </div>
         </div>
