@@ -1,12 +1,10 @@
-import { Navbar } from "./components/Navbar"
-import { FeedCard } from "./components/FeedCard"
+import { Login } from "./screens/Login"
 
 function App() {
 
   return (
     <>
-      <Navbar />
-      <FeedCard />
+      <Login />
     </>
   )
 }
