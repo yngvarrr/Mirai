@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  //background-color: #151515;
+}
+
+.card {
+  background-color: white;
+}
+
+.platformIcon {
+    margin: 0 0.15em;
+}
