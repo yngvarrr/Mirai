@@ -46,28 +46,28 @@
 
 @keyframes bgChange {
   0% {
-    background-image: url(../assets/login5.jpg);
+    background-image: url(../assets/doom.jpeg);
   }
   20% {
-    background-image: url(../assets/login5.jpg);
+    background-image: url(../assets/doom.jpeg);
   }
   25% {
-    background-image: url(../assets/login2.jpg);
+    background-image: url(../assets/gow.jpg);
   }
   45% {
-    background-image: url(../assets/login2.jpg);
+    background-image: url(../assets/gow.jpg);
   }
   50% {
-    background-image: url(../assets/login3.jpg);
+    background-image: url(../assets/halo.jpg);
   }
   70% {
-    background-image: url(../assets/login3.jpg);
+    background-image: url(../assets/halo.jpg);
   }
   75% {
-    background-image: url(../assets/login4.jpg);
+    background-image: url(../assets/mario.png);
   }
   95% {
-    background-image: url(../assets/login4.jpg);
+    background-image: url(../assets/mario.png);
   }
 }
 
