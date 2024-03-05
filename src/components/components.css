@@ -2,6 +2,30 @@
   margin: 0;
 }
 
+@font-face {
+  font-family: "KodeMono";
+  src: local("KodeMono"),
+  url(../assets/fonts/KodeMono-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "KodeMono-SemiBold";
+  src: local("KodeMono-SemiBold"),
+  url(../assets/fonts/KodeMono-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: "KodeMono-Medium";
+  src: local("KodeMono-Medium"),
+  url(../assets/fonts/KodeMono-Medium.ttf);
+}
+
+@font-face {
+  font-family: "KodeMono-Bold";
+  src: local("KodeMono-Bold"),
+  url(../assets/fonts/KodeMono-Bold.ttf);
+}
+
 .card {
   background-color: white;
 }
@@ -70,18 +94,48 @@
 
 .login {
   background-color: #151515;
-  width: 300px;
-  height: 300px;
-  display: flex;
+  width: 400px;
+  height: 400px;
   flex-direction: column;
   align-items: center;
   border-radius: 10px;
-  justify-content: space-around;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.login h1 {
+  font-family: "KodeMono-Bold";
+  align-items: center;
+  margin: auto;
+  text-align: justify;
 }
 
 .loginInput {
-  width: 200px;
+  width: 250px;
   height: 2.4em;
   margin: 5px auto;
-  border-radius: 10px;
+  border-radius: 15px;
+  padding: 0.3em;
+}
+
+.loginExtra {
+  align-items: center;
+  text-align: center;
+  font-family: "KodeMono";
+  margin: 0.3em auto;
+}
+
+.inputContainer {
+  font-family: "KodeMono";
+  margin: 0.3em auto;
+}
+
+.loginHeader {
+  margin: 0.3em auto;
+}
+
+.forgot {
+  text-decoration: none;
+  color: white;
+  margin: 0.3em auto;
 }
